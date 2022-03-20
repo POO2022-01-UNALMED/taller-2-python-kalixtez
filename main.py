@@ -34,7 +34,7 @@ class Auto:
         self.registro = registro
 
     def cantidadAsientos(self):
-        return len(asientos)
+        return len(self.asientos)
 
     def verificarIntegridad(self):
         if self.registro != self.motor.registro:
